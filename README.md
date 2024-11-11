@@ -27,7 +27,7 @@ Second, it generates the navigation system based on user's roles and permissions
 
 #### local/
 
-In production, some files are read from a local storage volume which allows users to make live edits with tools like [Manage Dashboards](https://revopsstreamlittool-production.up.railway.app/manage_dashboards) or [Manage Users](https://revopsstreamlittool-production.up.railway.app/manage_users). The **local/** directory has versions of these files that can be used to preview things during developement
+In production, some files are read from a local storage volume which allows users to make live edits with tools like **Manage Dashboards** or **Manage Users**. The **local/** directory has versions of these files that can be used to preview things during developement
 
 - **user_config.yaml** has authentication info that is used in production. This allows for testing logging in, reseting passwords, etc., but you may need to create credentials for you to use on your localhost.
 
